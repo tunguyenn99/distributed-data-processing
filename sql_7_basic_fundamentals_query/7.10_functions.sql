@@ -1,0 +1,4 @@
+-- Built-in functions
+SELECT LENGTH('hi');
+SELECT DATE_DIFF('day', DATE '2022-10-01', DATE '2022-10-10');
+SELECT ROUND(100.1023, 2);
