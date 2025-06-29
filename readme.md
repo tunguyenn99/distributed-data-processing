@@ -84,7 +84,7 @@ exit;
 4. Để nguyên cấu hình mặc định → Nhập user là `user`
 5. Test connection → Finish
 
-![DBeaver](./images/dbeaver.png)
+![DBeaver](./images/01_dbeaver-connect.png)
 
 ---
 
@@ -98,7 +98,7 @@ Bộ dữ liệu TPC-H mô phỏng một doanh nghiệp bán linh kiện xe hơi
 - Nhà cung cấp
 - Khu vực, quốc gia, sản phẩm...
 
-![TPC-H data model](./images/tpch_erd.png)
+![TPC-H data model](./images/02_tpch-schema.png)
 
 > 📌 Bạn nên giữ sơ đồ này bên cạnh khi học và làm bài tập.
 
