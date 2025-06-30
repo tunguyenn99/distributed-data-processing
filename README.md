@@ -13,8 +13,8 @@ Chào mừng bạn đến với dự án học SQL phân tích trên hệ cơ s�
 2. [Docker >= 20.10.17](https://docs.docker.com/engine/install/) và [Docker Compose v2 >= 2.10.2](https://docs.docker.com/compose/)
 
 ### 💡 Nếu bạn dùng Windows:
-- Cài **WSL** + Ubuntu theo [hướng dẫn này](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview)
-- Cài Docker bên trong Ubuntu (nếu chưa có thì xem [bài viết này](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04#step-1-installing-docker))
+- Cài **WSL** + Ubuntu theo [hướng dẫn này](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview) hoặc [xem repo sau (có video hướng dẫn)](https://github.com/tunguyenn99/ubuntu-install-wsl)
+- Cài Docker bên trong Ubuntu (nếu chưa có thì xem [bài viết này](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04#step-1-installing-docker) hoặc [repo sau](https://github.com/tunguyenn99?tab=repositories&q=docker&type=&language=&sort=))
 - Cài thêm `make` bằng lệnh:
 
 ```bash
