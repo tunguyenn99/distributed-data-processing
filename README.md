@@ -1,6 +1,8 @@
 
 # 🚀 Hướng Dẫn Cài Đặt Môi Trường – Phân tích dữ liệu với Trino & TPC-H
 
+Shout out: Tác giả của Efficient Data Processing in SQL - [Josephmachado](https://github.com/josephmachado) 
+
 Chào mừng bạn đến với dự án học SQL phân tích trên hệ cơ sở dữ liệu OLAP sử dụng **Trino** và bộ dữ liệu **TPC-H**. Hướng dẫn này sẽ giúp bạn cài đặt và khởi chạy môi trường làm việc chỉ trong vài bước đơn giản.
 
 ---
