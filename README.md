@@ -24,8 +24,8 @@ sudo apt install make -y
 ## 📥 Tải về mã nguồn
 
 ```bash
-git clone https://github.com/josephmachado/analytical_dp_with_sql.git
-cd analytical_dp_with_sql
+git clone https://github.com/tunguyenn99/distributed-data-processing.git
+cd distributed-data-processing
 ```
 
 > 💻 Người dùng Macbook M1 nên xem thêm [lưu ý này](https://github.com/josephmachado/analytical_dp_with_sql/issues/4#issuecomment-1426902080)
