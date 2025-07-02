@@ -60,6 +60,14 @@ Fragment 0 [tpch:orders:15000]
                            :: [[F], [O], [P]]
 ```                           
 
+Có thể xem được Execution Plan Visualization trong UI của Trino trên localhost:8080 bằng cách
+
+- Ấn vào `ID của query` đã chạy
+
+- Ấn vào `Live Plan`
+
+![Execution Plan](../../images/4.4.1_execution_plan.png)
+
 ---
 
 ## 📦 Fragment 0 – Xử lý chính (JOIN, tính toán, tổng hợp)

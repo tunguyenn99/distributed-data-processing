@@ -22,6 +22,8 @@ Chương này tập trung vào các mẫu truy vấn nâng cao thường gặp t
 - Cho phép viết truy vấn dạng lặp/đệ quy trong SQL
 - Ứng dụng: dựng chuỗi báo cáo trong sơ đồ tổ chức, tạo dãy thời gian liên tục, v.v.
 
+![Recursive Query](../images/6.1_recursive_cte.png)
+
 ### 🧹 Deduplication
 - Dùng `ROW_NUMBER()` để giữ lại dòng đầu tiên theo khóa chính hoặc timestamp
 - Hiệu quả hơn GROUP BY toàn bộ cột

@@ -7,6 +7,8 @@ Trong hệ thống xử lý dữ liệu phân tán như Trino, việc hiểu s�
 
 ## ⚙️ Narrow Transformation
 
+![Narrow Transformation](../../images/4.2.1_narrow_transformation.png)
+
 | Thuộc tính        | Mô tả |
 |--------------------|------|
 | ✅ Định nghĩa      | Phép biến đổi **không yêu cầu truyền dữ liệu giữa các node**. |
@@ -19,6 +21,8 @@ Trong hệ thống xử lý dữ liệu phân tán như Trino, việc hiểu s�
 ---
 
 ## 🌐 Wide Transformation
+
+![Wide Transformation](../../images/4.2.2_wide_transformation.png)
 
 | Thuộc tính        | Mô tả |
 |--------------------|------|

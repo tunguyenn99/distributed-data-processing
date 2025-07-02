@@ -9,6 +9,8 @@ Trong khi partitioning phù hợp với các cột có **ít giá trị duy nh�
 
 **Bucketing = chia bảng thành nhiều “bucket” (nhóm)** dựa trên **hàm băm (hash)** của giá trị trong một hoặc nhiều cột được chỉ định.
 
+![Bucketing](../../../images/4.5.3_bucketing_1.png)
+
 ---
 
 ## 🧠 Cách hoạt động
@@ -48,6 +50,8 @@ CREATE TABLE minio.tpch.lineitem_w_encoding_w_bucketing (
   bucketed_by = ARRAY ['quantity']
 );
 ```
+
+![Bucketing](../../../images/4.5.3_bucketing_2.png)
 
 ---
 

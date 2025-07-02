@@ -7,6 +7,8 @@ Khi làm việc với các truy vấn JOIN trong hệ thống cơ sở dữ li�
 
 ## ⚙️ 1. Hash Join
 
+![Hash Join](../../images/4.3.1_hash_join.png)
+
 | Thuộc tính | Mô tả |
 |------------|-------|
 | ✅ Khi nào dùng? | Khi **cả hai bảng đều lớn**, không thể broadcast bảng nào. |
@@ -18,6 +20,8 @@ Khi làm việc với các truy vấn JOIN trong hệ thống cơ sở dữ li�
 ---
 
 ## 🚀 2. Broadcast Join
+
+![Broadcast Join](../../images/4.3.2_broadcast_join.png)
 
 | Thuộc tính | Mô tả |
 |------------|-------|

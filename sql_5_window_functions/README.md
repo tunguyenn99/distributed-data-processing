@@ -2,6 +2,8 @@
 
 Window function là công cụ cực kỳ mạnh trong phân tích dữ liệu với SQL, cho phép bạn thực hiện tổng hợp, xếp hạng, so sánh giữa các dòng mà **vẫn giữ lại toàn bộ dữ liệu gốc**.
 
+![Window Functions](../images/5_window_functions.png)
+
 ---
 
 ## 📚 Cấu trúc chương
@@ -17,6 +19,19 @@ Window function là công cụ cực kỳ mạnh trong phân tích dữ liệu v
 | 5.6.2 | Window frame với RANGE | `5.6.2_window_frame_range.sql` |
 | 5.6.3 | Window frame với GROUPS | `5.6.3_window_frame_groups.sql` |
 
+Mô tả cho Window Frame: 
+
+- Rows: 
+
+![Window Functions](../images/5.6.1_window_frame_rows.png)
+
+- Range: 
+
+![Window Functions](../images/5.6.2_window_frame_range.png)
+
+- Groups: 
+
+![Window Functions](../images/5.6.3_window_frame_groups.png)
 ---
 
 ## 🧠 Window là gì?

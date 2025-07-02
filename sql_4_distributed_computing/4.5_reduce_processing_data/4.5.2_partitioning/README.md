@@ -54,6 +54,8 @@ CREATE TABLE minio.tpch.lineitem_w_encoding_w_partitioning (
 );
 ```
 
+![Partitioning](../../../images/4.5.2_partitioning.png)
+
 ---
 
 ## 🚀 Insert dữ liệu và tạo giá trị partition

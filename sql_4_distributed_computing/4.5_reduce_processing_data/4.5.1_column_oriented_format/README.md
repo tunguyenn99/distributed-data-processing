@@ -3,6 +3,8 @@
 
 Trong các hệ thống cơ sở dữ liệu phân tán như Trino, định dạng dữ liệu theo **cột** (column-oriented) đóng vai trò rất quan trọng trong việc tối ưu hóa truy vấn phân tích.
 
+![Columnar](../../../images/4.5.1_row_vs_column_oriented_storage_1.png)
+
 ---
 
 ## ❓ Vì sao cần định dạng cột?
@@ -10,9 +12,13 @@ Trong các hệ thống cơ sở dữ liệu phân tán như Trino, định dạ
 Truy vấn phân tích (OLAP) thường chỉ làm việc với một vài cột trong bảng rất lớn.  
 Nếu dữ liệu được lưu theo **dòng**, hệ thống phải **đọc toàn bộ các cột**, kể cả những cột không cần dùng → gây **lãng phí bộ nhớ và làm chậm truy vấn**.
 
+![Columnar](../../../images/4.5.1_row_vs_column_oriented_storage_2.png)
+
 ---
 
 ## 🔍 So sánh hiệu suất thực tế
+
+![Columnar](../../../images/4.5.1_column_oriented_format_test.png.png)
 
 ```sql
 -- Bảng định dạng cột (PARQUET)
@@ -55,12 +61,16 @@ Khi tạo bảng định dạng `PARQUET`, mỗi file Parquet gồm 3 phần ch�
    Chứa thông tin vị trí offset của các cột, kiểu mã hóa, kích thước…  
    → Giúp hệ quản trị chỉ đọc đúng phần cần thiết.
 
+![Parquet](../../../images/4.5.1_row_vs_column_oriented_storage_3.png)
+
 ---
 
 ## ⚙️ Quá trình Trino truy vấn bảng Parquet
 
 1. **Đọc FileMetaData** để xác định cần đọc cột nào, ở vị trí nào
 2. **Truy cập trực tiếp đến vị trí offset** của cột và chỉ đọc đúng phần dữ liệu cần
+
+![Columnar](../../../images/4.5.1_row_vs_column_oriented_storage_4.png)
 
 ---
 
