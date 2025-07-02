@@ -4,7 +4,7 @@ Chương này tập trung vào các mẫu truy vấn nâng cao thường gặp t
 
 ---
 
-## 📚 Cấu trúc chương
+## 📚 Cấu trúc chương 
 
 | Phần | Nội dung chính | File SQL |
 |------|----------------|----------|
